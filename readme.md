@@ -41,7 +41,8 @@ Includes animated confirmation feedback for successful submissions — because s
 
 4. Enjoy the smooth success animation. 🎉
 
-💡 Future Improvements
+💡 Future Improvements:
+
 🌐 Backend integration for actual email sending
 
 📱 More mobile-specific optimizations
