@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You</title>
+<style>
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    border: 2px solid #00f7ff;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: #1e1e1e;
+    text-align: center;
+    width: 350px;
+}
+
+/* Circle pop-up animation */
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    animation: pop 0.5s ease-out forwards;
+}
+
+.circle svg {
+    width: 60px;
+    height: 60px;
+    stroke: white;
+    stroke-width: 5;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: draw 0.5s ease-out forwards;
+    animation-delay: 0.5s; /* Wait for circle pop */
+}
+
+/* Circle pop animation */
+@keyframes pop {
+    0% { transform: scale(0); }
+    80% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Tick draw animation */
+@keyframes draw {
+    to { stroke-dashoffset: 0; }
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+    <div class="circle">
+        <svg viewBox="0 0 52 52">
+            <path d="M14 27l7 7 17-17" />
+        </svg>
+    </div>
+    <h1>Thank You!</h1>
+    <p>Your submission is done.</p>
+    <p>You Will Be Connected Soon  !!!</p>
+
+</div>
+
+</body>
+</html>

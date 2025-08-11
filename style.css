@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(19, 15, 15);
+}
+
+.container{
+    max-width: 550px;
+    margin: 50px auto;          /* Center the box horizontally */
+    padding: 10px;
+    background-color: #0f0303;
+    border: 5px solid rgb(0, 255, 255);
+    border-radius: 20px;
+}
+
+.heading{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 10px 0;
+}
+
+.sub-heading {
+    font-size: 15px;
+    color: white;
+    margin-top: -20px;
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #c2ff3f;
+}
+
+.name{
+    text-align: center;
+    color: white;
+}
+
+.details{
+    text-align: center;
+    color: white;
+}
+
+.reason{
+    text-align: center;
+    color: white;
+}
+
+.mydiv{
+    text-align: center;
+    padding: 20px;
+}
+
+input[type="submit"]{
+    background-color: aqua;
+    color: darkblue;
+    width: 30%;
+}
+
+input[type="submit"]:hover{
+    background-color: yellow;
+}
+
+textarea{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
